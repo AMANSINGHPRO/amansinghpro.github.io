@@ -6,10 +6,8 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+@use "../_sass/variables";
+@use "../_sass/themes";
+@use "../_sass/layout";
+@use "../_sass/base";
+@use "../_sass/distill";
